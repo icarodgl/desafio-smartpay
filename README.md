@@ -1,6 +1,6 @@
 # Você domina a Força?
 
-Guerreiro Luke é um pesquisador de uma empresa (República S/A) que realiza vários levantamentos de relatórios sobre produtos e estabelecimentos da região da Grande Vitória. Todos os dias ele cataloga vários itens novos e vários novos estabelecimentos, organizando tudo dentro de várias planilhas tal como seu chefe e pai (Darth Vader) ordena. Acontece que, além de todo esse trabalho ser feito manualmente, para recuperar algumas informações às vezes demora muito tempo, o que deixa o chefe de Luke furioso. Por isso, Princesa Leia, uma colega de Luke, sugeriu a construção de um dispositivo que realizasse esse procedimento de forma automática e fornecesse as informações requeridas pelo patrão em muito menos tempo. Infelizmente eles não sabem de ninguém que domine a Força para iniciar e guiá-los nessa difícil missão. Será que você pode ajudá-los?
+>Guerreiro Luke é pesquisador de uma empresa (República S/A) que realiza vários levantamentos de relatórios sobre produtos e estabelecimentos da região da Grande Vitória. Todos os dias ele cataloga vários itens novos e vários novos estabelecimentos, organizando tudo dentro de várias planilhas tal como seu chefe e pai (Darth Vader) ordena. Acontece que, além de todo esse trabalho ser feito manualmente, para recuperar algumas informações às vezes demora muito tempo, o que deixa o chefe de Luke furioso. Por isso, Princesa Leia, uma colega de Luke, sugeriu a construção de um dispositivo que realizasse esse procedimento de forma automática e fornecesse as informações requeridas pelo patrão em muito menos tempo. Infelizmente eles não sabem de ninguém que domine a Força para iniciar e guiá-los nessa difícil missão. Será que você pode ajudá-los?
 
 O desafio é que você desenvolva um **programa** que permita realizar as seguintes buscas: 
 1. Dado o nome de um produto, retornar uma listagem de quais **estabelecimentos** que possuem ele, junto com o **bairro** e **cidade** de cada estabelecimento.
@@ -19,9 +19,9 @@ O arquivo **estabelecimentos.csv** contém as informações de todos os estabele
 
 | Estabelecimento  | CNPJ  | Bairro |  Cidade |
 |---|---|---|---|
-| Rick's S/A  | 55091455000151  |  Centro  |  Vila Velha  | 
-| Churrascaria-Dudu | 10740748000184  |  Centro  |  Vitoria |
-| Pizzaria-Cleber S/A | 50761347000125 |  Maruipe  |  Vitoria |
+| Rick's  | 55091455000151  |  Centro  |  Vila Velha  | 
+| Churrascaria-Dudu | 10740748000184  |  Centro  |  Vitória |
+| Pizzaria-Cleber | 50761347000125 |  Maruípe  |  Vitória |
 
 **Escolha as tecnologias e técnicas que você vai usar e tente montar uma solução completa para rodar a aplicação**.
 
@@ -35,7 +35,7 @@ Por fim, o candidato deve atualizar o Readme.md com as seguintes informações:
 
 ## Avaliação
 
-O programa será avaliado levando em conta os seguintes critérios:
+O resultado da missão será avaliado levando em conta os seguintes critérios:
 
 | Critério  | Valor | 
 |---|---|
@@ -65,18 +65,20 @@ O Jedi pode aumentar a sua pontuação na seleção implementando um ou mais dos
 
 A nota final do Jedi será acrescido dos pontos referente ao item implementado corretamente.
 
-Cada item listado como diferencial deverá ser explicitado durante as fases de entrevista e mostra da solução do candidato.
+Cada item listado como diferencial deverá ser explicitado durante as fases de entrevista e mostra da solução do guerreiro.
 
 ## Penalizações
 
-O Jedi será desclassifiado nas seguintes situações:
+O aventureiro será desclassificado nas seguintes situações:
 
 1. Submeter um solução que não funcione; 
 2. Não cumprir no mínimo 60% de cada um dos critérios da seção **Avaliação**
 3. Solução Plagiada
 
-### *May the code be with You!*
-
 ## Referências
 
 Missão elaborada segundo o modelo do Mestre Jedi [Paulo S. S. Júnior](https://github.com/paulossjunior) no Episódio XX [(Teste para o ESPM)](https://github.com/prodest/venha-para-es-palma-mao).
+
+<p align="center">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/51nHC4Efp8L.jpg" width="250" height= "350" alt="Star Wars" />
+</p>
