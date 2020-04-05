@@ -1,8 +1,15 @@
-import { NestFactory } from '@nestjs/core';
-import { AppModule } from './app.module';
+import express from 'express';
+import bodyParser from 'body-parser';
+import cors from 'cors';
+import helmet from 'helmet';
+import routes from './routes';
+import { connectDb } from './config';
 
-async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
-  await app.listen(3000);
-}
-bootstrap();
+export const app = express();
+
+connectDb();
+
+app.use(bodyParser.json());
+app.use(cors());
+app.use(helmet());
+app.use(routes);
